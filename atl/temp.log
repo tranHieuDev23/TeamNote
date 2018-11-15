@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  14 NOV 2018 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  15 NOV 2018 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,52 +207,190 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+ [2])
 \tf@toc=\write3
 \openout3 = `temp.toc'.
 
- [2]
-(./codes/AhoCorasick/AhoCorasick.cpp
+ [3]
+(./codes/KDTree/KDTree.cc
+Overfull \hbox (61.82024pt too wide) in paragraph at lines 1--2
+[][][][][]  
+ []
+
+
+Overfull \hbox (61.82024pt too wide) in paragraph at lines 13--15
+[][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (104.34474pt too wide) in paragraph at lines 186--187
+[][][][][]  
+ []
+
+)
+Overfull \hbox (104.34474pt too wide) in paragraph at lines 208--57
+[][][][][]  
+ []
+
+(./codes/AhoCorasick/AhoCorasick.cpp [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./codes/FFT/FFT.cpp [1
-
-]) (./codes/Geometry/Geometry.cpp
+(./codes/BellmanFord/BellmanFord.cc [3]) (./codes/Concave1D/Concave1D.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+ [4])
+(./codes/ConvexHull/ConvexHull.cc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+(./codes/CountingAxByC0/CountingAxByC0.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(./codes/Dates/Dates.cc) (./codes/DecFormat/DecFormat.java [7])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./codes/Euclid/Euclid.cc [8]
+Overfull \hbox (2.2853pt too wide) in paragraph at lines 95--96
+[][][][][][][][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./codes/HungarianAlgorithm/HungarianAlgorithm.cpp [3])
-(./codes/JavaFastIO/JavaFastIO.java) (./codes/SuffixArray/SuffixArray.cpp
-[4]) (./codes/SuffixAutomaton/SuffixAutomaton.cpp) (./codes/Treap/Treap.cpp
-[5]
+(./codes/EulerianPath/EulerianPath.cc [9]
+Overfull \hbox (5.91002pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+) (./codes/FFT/FFT.cpp) (./codes/GaussJordan/GaussJordan.cc [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./codes/ZFunction/ZFunction.cpp [6]) [7
+(./codes/Geom3D/Geom3D.java [11]) (./codes/Geometry/Geometry.cc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/GraphCutInference/GraphCutInference.cc [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+(./codes/HungarianAlgorithm/HungarianAlgorithm.cpp)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+(./codes/IO/IO.cc) (./codes/JavaFastIO/JavaFastIO.java)
+(./codes/JavaGeometry/JavaGeometry.java [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (8.42586pt too wide) in paragraph at lines 136--137
+[][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+(./codes/Knuth/Knuth.cpp)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./codes/LinkcutTree2/LinkcutTree2.cpp [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/MatrixInverse/MatrixInverse.cpp [20])
+(./codes/MillerRabin/MillerRabin.cc) (./codes/MinCostMaxFlow/MinCostMaxFlow.cc
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/NTT/NTT.cpp [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/NTTLowMem/NTTLowMem.cpp [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/PersistentTreap/PersistentTreap.cpp [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/Primes/Primes.cc [25]) (./codes/PushRelabel/PushRelabel.cc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./codes/ReducedRowEchelonForm/ReducedRowEchelonForm.cc [27])
+(./codes/SegmentTreeLazy/SegmentTreeLazy.java
+Overfull \hbox (74.10414pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./codes/Simplex/Simplex.cc [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+(./codes/SuffixArray/SuffixArray.cpp)
+(./codes/SuffixAutomaton/SuffixAutomaton.cpp)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+(./codes/Treap/Treap.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+(./codes/ZFunction/ZFunction.cpp) [32
 
 ] (./temp.aux) ) 
 Here is how much of TeX's memory you used:
- 3328 strings out of 494923
- 44914 string characters out of 6180741
- 254440 words of memory out of 5000000
- 6612 multiletter control sequences out of 15000+600000
+ 4299 strings out of 494923
+ 56962 string characters out of 6180741
+ 339440 words of memory out of 5000000
+ 7474 multiletter control sequences out of 15000+600000
  8361 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 33i,12n,58p,183b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,12n,58p,206b,1666s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on temp.pdf (9 pages, 104031 bytes).
+Output written on temp.pdf (35 pages, 173344 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
