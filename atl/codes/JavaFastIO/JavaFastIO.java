@@ -6,8 +6,7 @@ static class FastReader
 
     FastReader()
     {
-        br = new BufferedReader(new
-                InputStreamReader(System.in));
+        br = new BufferedReader(new InputStreamReader(System.in));
     }
 
     String next()

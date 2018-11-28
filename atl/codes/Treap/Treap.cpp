@@ -99,27 +99,31 @@ template <typename T> class Treap
             updateCount(node);
         }
 
-        void print(TreapNode* node)
+        int lowerBound(TreapNode* node, T value, int add = 0)
         {
             if (!node)
-                return;
-            print(node->lc);
-            cout << node->value << ' ';
-            print(node->rc);
+                return maxC;
+            int currentPos = add + getCount(node->lc);
+            if (node->value >= value)
+                return min(currentPos, lowerBound(node->lc, value, add));
+            return lowerBound(node->rc, value, currentPos + 1);
+        }
+
+        int upperBound(TreapNode* node, T value, int add = 0)
+        {
+            if (!node)
+                return maxC;
+            int currentPos = add + getCount(node->lc);
+            if (node->value > value)
+                return min(currentPos, lowerBound(node->lc, value, add));
+            return lowerBound(node->rc, value, currentPos + 1);
         }
 
         TreapNode* root;
 
     public:
-        Treap()
-        {
-            root = NULL;
-        }
-
-        int size()
-        {
-            return getCount(root);
-        }
+        Treap() {root = NULL;}
+        int size() {return getCount(root);}
 
         void insert(T value, int pos)
         {
@@ -128,25 +132,10 @@ template <typename T> class Treap
             TreapNode* newItem = new TreapNode(value);
             root = merge(merge(l, newItem), r);
         }
+        void insert(T value) {insert(value, size());}
 
-        void insert(T value)
-        {
-            insert(value, size());
-        }
-
-        T get(int pos)
-        {
-            return get(root, pos)->value;
-        }
-
-        void erase(int pos)
-        {
-            erase(root, pos);
-        }
-
-        void print()
-        {
-            print(root);
-            cout << '\n';
-        }
+        T get(int pos) {return get(root, pos)->value;}
+        void erase(int pos) {erase(root, pos);}
+        int lowerBound(T value) {return lowerBound(root, value);}
+        int upperBound(T value) {return upperBound(root, value);}
 };

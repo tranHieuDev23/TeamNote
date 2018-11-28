@@ -36,10 +36,6 @@
 
 \begin{document}
 \begin{titlepage}
-\maketitle
-\thispagestyle{empty}
-\pagebreak
-%\pagestyle{plain}
 \pagestyle{fancy}
 \lhead{}
 \rhead{}
